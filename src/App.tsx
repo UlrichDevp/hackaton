@@ -9,6 +9,8 @@ import Parcours from "./pages/Parcours";
 import Quiz from "./pages/Quiz";
 import NotFound from "./pages/NotFound";
 import Guide from "./pages/Guide";
+import Chat from "./pages/Chat";
+
 
 const queryClient = new QueryClient();
 
@@ -24,6 +26,8 @@ const App = () => (
           <Route path="/parcours" element={<Parcours />} />
           <Route path="/quiz" element={<Quiz />} />
           <Route path="/guide" element={<Guide />} />
+          <Route path="/chat" element={<Chat />} />
+
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
