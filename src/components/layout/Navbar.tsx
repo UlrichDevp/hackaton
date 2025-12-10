@@ -9,6 +9,7 @@ const navLinks = [
   { href: "/evaluation", label: "Évaluation" },
   { href: "/parcours", label: "Parcours" },
   { href: "/quiz", label: "Quiz" },
+  { href: "/chat", label: "ChatIA" },
 ];
 
 export function Navbar() {
